@@ -4,7 +4,7 @@ from discord.ext.commands import Bot
 import asyncio
 import os
 
-bot = commands.Bot(command_prefix='natsuki ')
+bot = commands.Bot(command_prefix='w!')
 bot.remove_command('help')
 ownerID = "274298631517896704"
 Error = 0xFF0000
