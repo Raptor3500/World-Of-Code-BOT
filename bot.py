@@ -66,6 +66,21 @@ async def prune(ctx, number, *args):
     async for x in bot.logs_from(ctx.message.channel, limit = number):
         mgs.append(x)
     await bot.delete_messages(mgs)
+    
+@bot.command(passcontext=True)
+async def rpinfo()
+
+embed = discord.Embed(name='List of characters', discription=None, color=0x0053d8)
+embed.set_author(ctx.message.author.name)
+embed.add_field(name='Kenki', value=None, inline=False)
+embed.add_field(name='Xenzai', value=None, inline=False)
+embed.add_field(name='Chara', value=None, inline=False)
+embed.add_field(name='Nine', value=None, inline=False)
+embed.add_field(name='Yuri', value=None, inline=False)
+embed.add_field(name='Gio', value=None, inline=False)
+
+
+await bot.say(embed=embed)
         
     
 
