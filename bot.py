@@ -67,7 +67,7 @@ async def prune(ctx, number, *args):
         mgs.append(x)
     await bot.delete_messages(mgs)
     
-@bot.command(passcontext=True)
+@bot.command(pass_context=True)
 async def rpinfo(ctx):
 
   embed = discord.Embed(name='List of characters', discription=None, color=0x0053d8)
