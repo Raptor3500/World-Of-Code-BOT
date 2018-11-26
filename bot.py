@@ -71,7 +71,7 @@ async def prune(ctx, number, *args):
 async def rpinfo(ctx):
 
   embed = discord.Embed(name='List of characters', discription=None, color=0x0053d8)
-  embed.set_author(ctx.message.author.name)
+  embed.set_author(name=ctx.message.author.name)
   embed.add_field(name='Kenki', value=None, inline=False)
   embed.add_field(name='Xenzai', value=None, inline=False)
   embed.add_field(name='Chara', value=None, inline=False)
