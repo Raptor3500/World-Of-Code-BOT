@@ -68,7 +68,7 @@ async def prune(ctx, number, *args):
     await bot.delete_messages(mgs)
     
 @bot.command(passcontext=True)
-async def rpinfo()
+async def rpinfo(ctx:)
 
 embed = discord.Embed(name='List of characters', discription=None, color=0x0053d8)
 embed.set_author(ctx.message.author.name)
